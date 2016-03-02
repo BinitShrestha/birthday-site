@@ -37,19 +37,22 @@
   font-size: 72px;
   line-height:80px;
   text-align: center;
-  color:#DAB460;
+  color:#a57d27;
   text-transform:uppercase;
-  margin-top:10%;
+  margin-top:17%;
   font-weight:700;
   padding-left:0;
+  text-shadow: 5px 5px black;
 }
 #main-slider .carousel p {
   font-size: 24px;
   line-height:24px;
-  color:#FFF;
+  color: #666666
+;
   text-transform:uppercase;
-  font-weight:400;
+  font-weight:bold;
   padding-left:0;
+  text-align: center;
 }
 #main-slider .carousel .btn {
   color: #fff;
@@ -63,6 +66,20 @@
   padding: 10px 15px;
   background-color: rgba(0, 0, 0, 0.8);
   display: inline-block;
+}
+
+body p {
+  text-indent: 50px;
+  line-height: 200%;
+  font-size: 18px;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+#signoff {
+  text-indent: 800px;
 }
 #main-slider .carousel .item {
   background-position: 50%;
@@ -160,9 +177,6 @@
 	  padding-left:0;
 	}
 }
-
-
-
 
 /* Section Title */
 .section-title h1{
