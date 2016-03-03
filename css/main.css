@@ -13,7 +13,7 @@ body {
   transform: translateZ(0);
 }
 .section-white {
-  background: #FFF;
+  background: #535b60;
 }
 .section-dark {
   background: #151515;
@@ -77,8 +77,8 @@ div[class*="span"] {
 	Typography Style
 --------------------------------------------------------------------------*/
 body {
-  font-family: Arial, 'Helvetica', sans-serif;
-  font-size: 14px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
   line-height: 20px;
   color: #535b60;
 }
@@ -87,9 +87,14 @@ h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 800;
 }
+#darktitle {
+  color:#151515;
+}
+
 h2 {
   color: #53555c;
-  font-family: 'Lato', sans-serif;
+  font-family: copperplate, sans-serif;
+  font-weight: bold;
   font-size: 2em;
   line-height: 1.5em;
   margin: 30px 0 0 0;
@@ -1040,8 +1045,7 @@ border:none;
   background: #222;
   color: #A0A0A0;
   padding: 0 20px 10px 20px;
-  border-top: 4px solid #aec62c;
-  margin-top: 20px;
+
   -webkit-box-shadow: 0 -1px 12px rgba(0,0,0,0.4);
   -moz-box-shadow: 0 -1px 12px rgba(0,0,0,0.4);
   box-shadow: 0 -1px 12px rgba(0,0,0,0.4);

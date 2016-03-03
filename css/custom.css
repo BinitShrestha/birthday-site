@@ -25,7 +25,7 @@
 
 #main-slider {
   position: relative;
-  margin-top:30px;
+  margin-top:5%;
 }
 
 @media(max-width:767px) {
@@ -37,31 +37,35 @@
   font-size: 72px;
   line-height:80px;
   text-align: center;
-  color:#a57d27;
+  color:white;
   text-transform:uppercase;
-  margin-top:17%;
+  margin-top:8%;
   font-weight:700;
   padding-left:0;
   text-shadow: 5px 5px black;
 }
+#divider {
+  width:50%;
+  height:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #main-slider .carousel p {
- /* font-size: 24px;
-  line-height:24px;
-  color: #666666*/
-   font-size: 50px;
-  line-height:80px;
+  font-family: cursive;
+  font-size: 35px;
+  line-height:30px;
+  color: white;
   text-align: center;
-  color:#gray;
-  /*text-transform:uppercase;*/
-  margin-top:2%;
-  font-weight:700;
   padding-left:0;
   text-shadow: 5px 5px black;
-;
-  text-transform:uppercase;
-  font-weight:bold;
-  padding-left:0;
-  text-align: center;
+  font-weight:900;
+}
+
+.cursive {
+  font-family: 'Brush Script MT', cursive;
+  padding-top: 13%;
 }
 #main-slider .carousel .btn {
   color: #fff;
@@ -77,10 +81,10 @@
   display: inline-block;
 }
 
-body p {
+.indented {
   text-indent: 50px;
   line-height: 200%;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #bold {
@@ -192,7 +196,7 @@ body p {
 	font-size:48px;
 	text-transform:uppercase;
 	font-weight:700;
-	margin-bottom:50px;
+	margin-bottom:20px;
 }
 
 .section-title h1:before{
@@ -209,10 +213,6 @@ body p {
 	margin-left:30px;
 }
 }
-
-
-
-
 
 /* Portfolio Grid and Hover Effects */
 
@@ -240,29 +240,47 @@ body p {
 	position: absolute;
 	top: 0;
 	left: 0;
-	padding: 40px;
+	padding: 20px;
 	background: black;
 	color: #ed4e6e;
 }
 
 .grid figcapton h3 {
 	font-size:30px;
-  /*display: block;*/
-	/*text-transform:uppercase;*/
+  display: block;
 	margin-left: auto;
   margin-right: auto;
-  text-align: center;
-	/*padding: 0;*/
+	padding: 0;
 	color: #fff;
 }
 
 .grid figcaption a {
 	text-align: center;
-	padding: 5px 10px;
+	padding: 0 auto;
 	border-radius: 0;
-	display: inline-block;
-	background: #ed4e6e;
-	color: #fff;
+	color: #535b60;
+  font-size:20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 120%;
+}
+
+.grid figcaption a:hover {
+  text-align: center;
+  padding: 0 auto;
+  border-radius: 0;
+  display:block;
+  color: white;
+  font-size:20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: underline;
+
+}
+
+#small_text {
+  font-size: 18px;
 }
 
 
@@ -311,11 +329,11 @@ body p {
 	transition: transform 0.4s, opacity 0.1s;
 }
 
-.cs-style-3 figcaption a {
+/*.cs-style-3 figcaption a {
 	position: absolute;
 	bottom: 20px;
 	right: 20px;
-}
+}*/
 
 /* Caption Style 2 */
 .cs-style-2 figure img {
@@ -340,12 +358,12 @@ body p {
 	bottom: 0;
 }
 
-.cs-style-2 figcaption a {
+/*.cs-style-2 figcaption a {
 	position: absolute;
 	right: 20px;
 	top: 30px;
 }
-
+*/
 
 
 
