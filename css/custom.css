@@ -44,6 +44,10 @@
   padding-left:0;
   text-shadow: 5px 5px black;
 }
+
+#main-slider .carousel .down h2 {
+  font-size: 100;
+}
 #divider {
   width:50%;
   height:50%;
@@ -63,8 +67,7 @@
   font-weight:900;
 }
 
-.cursive {
-  font-family: 'Brush Script MT', cursive;
+.down {
   padding-top: 13%;
 }
 #main-slider .carousel .btn {
@@ -200,7 +203,7 @@
 }
 
 .section-title h1:before{
-	content: url(../img/title-before.png);
+	content: url(../img/gold_bars.png);
 	display:block;
 	float:left;
 }
@@ -234,6 +237,7 @@
 	max-width: 100%;
 	display: block;
 	position: relative;
+  background-size: cover;
 }
 
 .grid figcaption {
@@ -329,12 +333,6 @@
 	transition: transform 0.4s, opacity 0.1s;
 }
 
-/*.cs-style-3 figcaption a {
-	position: absolute;
-	bottom: 20px;
-	right: 20px;
-}*/
-
 /* Caption Style 2 */
 .cs-style-2 figure img {
 	z-index: 10;
@@ -358,12 +356,9 @@
 	bottom: 0;
 }
 
-/*.cs-style-2 figcaption a {
-	position: absolute;
-	right: 20px;
-	top: 30px;
+.down {
+  margin-top: 13%;
 }
-*/
 
 
 

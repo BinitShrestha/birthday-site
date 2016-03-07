@@ -1102,6 +1102,15 @@ border:none;
   padding-top: 10px;
   font-size: 0.9em;
 }
+
+.footer-copyright a {
+  color: #D9B56C;
+}
+
+.footer-copyright a:hover {
+  color: #D9B56C;
+  text-decoration: underline;
+}
 /*--------------------------------------------------------------------------
 +	Pagination Style (overrides Bootstrap style)
 --------------------------------------------------------------------------*/
