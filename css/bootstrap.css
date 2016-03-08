@@ -5527,6 +5527,7 @@ button.close {
 .carousel-control .icon-next:before {
   content: '\203a';
 }
+
 .carousel-indicators {
   position: absolute;
   bottom: 10px;
