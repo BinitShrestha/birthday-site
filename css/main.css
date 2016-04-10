@@ -4,6 +4,9 @@
 body {
   background: #FFFFFF;
 }
+iframe {
+  text-align: center;
+}
 .section {
   padding: 30px 0;
   -webkit-transform: translateZ(0);
@@ -17,6 +20,9 @@ body {
 }
 .section-dark {
   background: #151515;
+}
+.section-bottom {
+  background-image: url("bottom.jpg");
 }
 .section-dark h3 {
   color:#FFF;
@@ -33,6 +39,7 @@ body {
   width: 50px;
   margin-bottom: 0 !important;
 }
+
 textarea:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
