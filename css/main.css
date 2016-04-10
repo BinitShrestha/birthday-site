@@ -21,6 +21,9 @@ iframe {
 .section-dark {
   background: #151515;
 }
+.section-bottom {
+  background-image: url("bottom.jpg");
+}
 .section-dark h3 {
   color:#FFF;
   font-size:18px;
@@ -36,6 +39,7 @@ iframe {
   width: 50px;
   margin-bottom: 0 !important;
 }
+
 textarea:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,

@@ -195,6 +195,10 @@
 	}
 }
 
+.bottom_image {
+  width: 100%;
+}
+
 /* Section Title */
 .section-title h1{
 	font-size:48px;
