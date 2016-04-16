@@ -44,6 +44,10 @@
   padding-left:0;
   text-shadow: 5px 5px black;
 }
+#main-slider .carousel .smaller h2{
+  margin-top:9%;
+  font-size: 60px;
+}
 
 #main-slider .carousel .down h2 {
   font-size: 100;

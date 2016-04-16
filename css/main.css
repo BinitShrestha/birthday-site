@@ -87,10 +87,11 @@ body {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 20px;
   line-height: 20px;
-  color: #535b60;
+  color: #fff;
 }
+
 h1 {
-  color: #53555c;
+  color: #fff;
   font-family: 'Lato', sans-serif;
   font-weight: 800;
 }
@@ -106,6 +107,7 @@ h2 {
   line-height: 1.5em;
   margin: 30px 0 0 0;
 }
+
 h3 {
   font-family: 'Lato', sans-serif;
   color: #53555c;
